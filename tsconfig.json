@@ -63,6 +63,10 @@
   },
   "include": [
     "src/main.tsx",
-    "src/global.d.ts"
+    "src/app.tsx",
+    "src/module.tsx",
+    // Apparently this order is important?? Moving global.d.ts to the top causes build failures.
+    // I guess the preact types must be loaded before global.d.ts... WHY?
+    "src/global.d.ts",
   ]
 }

@@ -1,11 +1,8 @@
 import { createElement } from "preact";
 
-export function main() {
-  const x: SomeCustomInterfaceToDetermineWhetherThisFileIsBeingIncluded = {};
-
+export function App() {
   return (
     <div>
-      <global-custom-element attr={5} attr2={x} />
       <module-custom-element
         ceProp="ceProp"
         dir="auto" // Inherited prop from HTMLAttributes
@@ -16,5 +13,3 @@ export function main() {
     </div>
   );
 }
-
-main();
