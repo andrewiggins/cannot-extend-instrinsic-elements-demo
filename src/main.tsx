@@ -1,4 +1,4 @@
-import { h as createElement } from 'preact';
+import { createElement } from 'preact';
 
 export function main() {
     const x: SomeCustomInterfaceToDetermineWhetherThisFileIsBeingIncluded = {};
