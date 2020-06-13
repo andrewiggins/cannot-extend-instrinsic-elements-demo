@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "tsc -p tsconfig.json"
+    "test": "tsc --version && tsc -p tsconfig.json"
   },
   "author": "",
   "license": "ISC",
@@ -12,6 +12,6 @@
     "preact": "^10.4.4"
   },
   "devDependencies": {
-    "typescript": "3.9.1-rc"
+    "typescript": "3.5.3"
   }
 }
