@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.main = void 0;
 var preact_1 = require("preact");
 function main() {
     var x = {};
