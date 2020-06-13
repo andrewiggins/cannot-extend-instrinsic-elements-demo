@@ -4,14 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "passes": "npm i preact@latest && npm test",
-    "fails": "npm i preact@10.0.0-rc.0 && npm test",
     "test": "npx tsc"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "preact": "^10.0.0-rc.0"
+    "preact": "^10.4.4"
   },
   "devDependencies": {
     "typescript": "^3.5.3"
